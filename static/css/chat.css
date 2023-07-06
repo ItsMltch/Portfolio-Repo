@@ -1,0 +1,35 @@
+.chat-bar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 400px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.chat-bar input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.chat-bar button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.chat-bar button:hover {
+    background-color: #45a049;
+}
